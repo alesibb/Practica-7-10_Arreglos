@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eb74f8;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 50%;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #c9a6eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #fca693;
+}
+
+.cuadro {
+    display: grid;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.cuadro-input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.resultado {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.sum-fila {
+    background-color: #99ccff;
+}
+
+.sum-columna, .sum-diagonal {
+    background-color: #4addd8;
+}
